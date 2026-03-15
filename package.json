@@ -9,7 +9,7 @@
     "db:init": "node scripts/initDb.js"
   },
   "dependencies": {
-    "next": "15.2.0",
+    "next": "15.2.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sql.js": "^1.10.3",
