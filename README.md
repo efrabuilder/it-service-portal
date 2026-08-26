@@ -22,10 +22,10 @@ Built by **Efraín Rojas Artavia**
 
 | Layer | Technology |
 |-------|-----------|
-| Frontend | React 18 + Next.js 14 |
+| Frontend | React 19 + Next.js 16 |
 | Styling | Tailwind CSS |
 | Backend | Next.js API Routes |
-| Database | SQLite (better-sqlite3) |
+| Database | SQLite (Node's built-in `node:sqlite`, requires Node.js 22.13+) |
 | Auth | JWT + HTTP-only cookies |
 
 ---
@@ -40,14 +40,20 @@ cd it-service-portal
 # 2. Install
 npm install
 
-# 3. Initialize database with sample data
+# 3. Set your JWT secret
+cp .env.example .env.local
+# edit .env.local and set JWT_SECRET to a long random string
+
+# 4. Initialize database with sample data
 npm run db:init
 
-# 4. Run
+# 5. Run
 npm run dev
 ```
 
 Open http://localhost:3000
+
+The database lives in `data/portal.db` and persists between restarts. It's created automatically on first run; `npm run db:init` wipes it and reseeds the sample data.
 
 ---
 
