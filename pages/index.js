@@ -27,7 +27,7 @@ export default function Login() {
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 mb-4">
-            <span className="text-2xl font-black tracking-tight">efra<span className="text-[#FF6B35]">.</span>portal</span>
+            <span className="text-2xl font-black tracking-tight">itservice<span className="text-[#FF6B35]">.</span>portal</span>
           </div>
           <h1 className="text-2xl font-bold text-white">IT Service Portal</h1>
           <p className="text-sm text-gray-500 mt-1">Sign in to manage your tickets</p>
