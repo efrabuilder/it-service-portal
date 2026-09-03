@@ -83,7 +83,7 @@ export default function Dashboard() {
     <div className="min-h-screen bg-[#0d0d0d] flex flex-col">
       {/* NAV */}
       <nav className="sticky top-0 z-50 bg-[#0d0d0d]/90 backdrop-blur border-b border-white/8 px-6 py-3 flex items-center justify-between">
-        <span className="font-black text-lg tracking-tight">efra<span className="text-[#FF6B35]">.</span>portal</span>
+        <span className="font-black text-lg tracking-tight">itservice<span className="text-[#FF6B35]">.</span>portal</span>
         <div className="flex items-center gap-4">
           <button onClick={() => setShowNew(true)}
             className="bg-[#FF6B35] hover:bg-[#ff4d1a] text-white text-sm font-semibold px-4 py-1.5 rounded-lg transition">
